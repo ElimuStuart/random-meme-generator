@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 
+import Header from "./Header";
+import MemeGenerator from "./MemeGenerator";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -9,8 +12,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Hello CodeSandbox</h1>
-        <h2>Start editing to see some magic happen!</h2>
+        <Header />
+        <MemeGenerator />
       </div>
     );
   }
